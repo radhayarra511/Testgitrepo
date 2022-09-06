@@ -8,11 +8,6 @@ variable "project_id" {
   description = "(Required) The ID of the project in which the resource belongs. If it is not provided, the provider project is used."
 }
 
-variable "alert_id" {
-  type        = string
-  description = "(Required) The ID of the project in which the resource belongs. If it is not provided, the provider project is used."
-}
-
 variable "combiner" {
   type        = string
   description = "(Required) How to combine the results of multiple conditions to determine if an incident should be opened. Possible values are AND, OR, and AND_WITH_MATCHING_RESOURCE."
